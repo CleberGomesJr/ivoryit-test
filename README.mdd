@@ -1,57 +1,43 @@
-﻿# 🚀 Teste de Estágio - DevOps
+## 🚀 Teste de Estágio - DevOps
 
-
-Este repositório contém a implementação do teste de estágio para a área de **DevOps**, incluindo CI/CD, análise de código com **SonarCloud** e deploy contínuo com **Netlify**.
+Este repositório contém a implementação do teste de estágio para a área de DevOps, incluindo CI/CD, análise de código com SonarCloud e deploy contínuo com Netlify.
 
 ---
 
-<hr>
+## 🛠️ Tecnologias Utilizadas
 
-<h2>📂 Estrutura do Projeto</h2>
-<pre>
-ivoryit-test/
-├── Site/                  # Código do site estático (HTML + CSS)
-├── .github/workflows/     # Configuração do GitHub Actions (CI/CD)
-├── README.md              # Documentação do repositório
-└── ...
-</pre>
+- **GitHub Actions** → Pipeline CI/CD
+- **SonarCloud** → Análise de qualidade do código
+- **Netlify** → Deploy contínuo
+- **HTML + CSS** → Site estático
 
-<hr>
+---
 
-<h2>🛠️ Tecnologias Utilizadas</h2>
-<ul>
-    <li><strong>GitHub Actions</strong> → Pipeline CI/CD</li>
-    <li><strong>SonarCloud</strong> → Análise de qualidade do código</li>
-    <li><strong>Netlify</strong> → Deploy contínuo</li>
-    <li><strong>HTML + CSS</strong> → Site estático</li>
-</ul>
+## 📌 Funcionalidades
 
-<hr>
+✅ Controle de versionamento estruturado (**main**, **develop**, **homolog** e branches temporárias).  
+✅ Pipeline automatizado com **GitHub Actions**.  
+✅ Análise de qualidade com **SonarCloud**.  
+✅ Deploy contínuo via **Netlify**.  
 
-<h2>📌 Funcionalidades</h2>
-<ul>
-    <li>✅ Controle de versionamento estruturado (<strong>main</strong>, <strong>develop</strong>, <strong>homolog</strong> e branches temporárias).</li>
-    <li>✅ Pipeline automatizado com <strong>GitHub Actions</strong>.</li>
-    <li>✅ Análise de qualidade com <strong>SonarCloud</strong>.</li>
-    <li>✅ Deploy contínuo via <strong>Netlify</strong>.</li>
-</ul>
+---
 
-<hr>
+## 🌍 Deploy do Projeto
 
-<h2>🌍 Deploy do Projeto</h2>
-<p>🔗 <strong>Acesse o site:</strong> <a href="https://ivoryittest.netlify.app/" target="_blank">ivoryittest.netlify.app</a></p>
+🔗 **Acesse o site:** [ivoryittest.netlify.app](https://ivoryittest.netlify.app/)
 
-<hr>
+---
 
-<h2>🔄 Fluxo de Desenvolvimento</h2>
-<ol>
-    <li><strong>Criação de feature</strong> → Desenvolvemos em uma branch temporária (<code>feature/nome-da-feature</code>).</li>
-    <li><strong>Merge para develop</strong> → Após finalização, integramos na branch <code>develop</code>.</li>
-    <li><strong>Testes e ajustes</strong> → Correções e validações na <code>homolog</code>.</li>
-    <li><strong>Deploy na main</strong> → Quando tudo estiver validado, realizamos o merge para <code>main</code>, acionando o deploy automático.</li>
-</ol>
+## 🔄 Fluxo de Desenvolvimento
 
-<hr>
+1. **Criação de feature** → Desenvolvemos em uma branch temporária (`feature/nome-da-feature`).
+2. **Merge para develop** → Após finalização, integramos na branch `develop`.
+3. **Testes e ajustes** → Correções e validações na `homolog`.
+4. **Deploy na main** → Quando tudo estiver validado, realizamos o merge para `main`, acionando o deploy automático.
 
-<h2>📊 Análise de Qualidade</h2>
-<p>✅ <strong>SonarCloud</strong>: <a href="https://sonarcloud.io/project/overview?id=CleberGomesJr_ivoryit-test" target="_blank">Acesse a análise aqui</a></p>
+---
+
+## 📊 Análise de Qualidade
+
+✅ **SonarCloud**: [Acesse a análise aqui](https://sonarcloud.io/project/overview?id=CleberGomesJr_ivoryit-test)
+
