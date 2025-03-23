@@ -25,7 +25,7 @@ jobs:
         run: |
           npm install -g sonar-scanner
           sonar-scanner \
-            -Dsonar.projectKey=CleberGomesJr_ivoryit-test \
+            -Dsonar.projectKey=CleberGomesJunior_ivoryit-test \
             -Dsonar.organization=clebergomesjr \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=$SONAR_TOKEN
