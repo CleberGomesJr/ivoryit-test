@@ -1,4 +1,4 @@
-## 🚀 Teste de Estágio - DevOps
+## 🚀 Projeto Pipeline automatizado - DevOps
 
 Este repositório contém a implementação do teste de estágio para a área de DevOps, incluindo CI/CD, análise de código com SonarCloud e deploy contínuo com Netlify.
 
